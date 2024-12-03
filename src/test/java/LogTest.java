@@ -34,7 +34,7 @@ public void testValid() {
 public void testInvalid() {
     LoginApp app = new LoginApp();
    
-        username = app.authenticateUser("tomclark@example.com", "password789");
+        String username = app.authenticateUser("tomclark@example.com", "password789");
         assertNull(username, "Username should be null for invalid email-password combination");
 }
 
@@ -55,7 +55,7 @@ public void test2() {
     LoginApp app = new LoginApp();
 
     
-    username = app.authenticateUser("", "password123");
+    String username = app.authenticateUser("", "password123");
     assertNull(username, "Username should be null for empty email");
 }
 
