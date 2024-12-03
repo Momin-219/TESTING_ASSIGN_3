@@ -1,4 +1,4 @@
-USE testing;
+USE momin;
 
 -- Create User table
 CREATE TABLE User (
