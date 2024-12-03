@@ -4,7 +4,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Test {
+public class LogTest {
    @Test
 public void testCaseSensitivity() {
     LoginApp app = new LoginApp();
